@@ -17,6 +17,8 @@ Style/SymbolArray:
 
 Metrics/LineLength:
   Max: 120
+  Exclude:
+    - "config/initializers/*"
 
 Style/BlockDelimiters:
   Exclude:
