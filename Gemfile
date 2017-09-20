@@ -20,6 +20,7 @@ gem "carrierwave"
 gem "devise"
 gem "devise-bootstrap-views"
 gem "fog-aws"
+gem "simple_form"
 gem "slim-rails"
 gem "tether-rails"
 
