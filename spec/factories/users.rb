@@ -24,6 +24,13 @@
 #  address                :string
 #  avatar                 :string
 #
+# Indexes
+#
+#  index_users_on_confirmation_token        (confirmation_token) UNIQUE
+#  index_users_on_email                     (email) UNIQUE
+#  index_users_on_last_name_and_first_name  (last_name,first_name)
+#  index_users_on_reset_password_token      (reset_password_token) UNIQUE
+#
 
 FactoryGirl.define do
   factory :user do
